@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background-color: red;
+}
+
+.flex__container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 330px;
+}
+
+aside {
+    flex-basis: 25%;
+    /* height: 100% */
+}
+
+#aside_left {
+    background-color: green;
+}
+
+section {
+    background-color: rgb(0, 110, 255);
+    flex-basis: 50%;
+}
+
+#aside_right {
+    background-color: pink;
+}
+
+footer {
+    background-color: rgb(172, 101, 172);
+}
+
+.flex__inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
