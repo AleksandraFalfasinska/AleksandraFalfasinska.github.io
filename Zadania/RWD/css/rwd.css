@@ -1,0 +1,25 @@
+@media (min-width: 992px) and (max-width: 1170px) {
+    .main__header {
+        background-image: url(../obrazy/man-2.jpg);
+        height: 70vh;
+        justify-content: flex-end;
+        align-content: flex-start;
+    }
+}
+
+@media (max-width: 992px) {
+    .main__header {
+        height: 50vh;
+        position: relative;
+    }
+    .header__paragraph {
+        position: absolute;
+        color: black;
+        top: 350px;
+        width: 100%;
+        text-align: center;
+    }
+    #bold {
+        top: 395px;
+    }
+}

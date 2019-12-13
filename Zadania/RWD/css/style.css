@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.main__header {
+    background-image: url(../obrazy/man-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-content: center;
+}
+
+.header__paragraph {
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 30px;
+    flex-basis: 100%;
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#bold {
+    font-weight: 900;
+}
