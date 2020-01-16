@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2,
+hr {
+    text-align: center;
+}
+
+h2 {
+    color: rgba(145, 142, 142, 0.884);
+    text-transform: uppercase;
+}
+
+hr {
+    width: 25%;
+    color: rgba(155, 151, 151, 0.884);
+    ;
+}
+
+.btn-link {
+    color: orange;
+}
+
+.btn-link:hover {
+    color: rgba(145, 142, 142, 0.884);
+}
